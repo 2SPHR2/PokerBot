@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const config = require("./config.json")
 const index = require("./index");
 const status = require("./status");
 
