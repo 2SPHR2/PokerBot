@@ -58,7 +58,7 @@ const required = ['token', 'mailGuildId', 'mainGuildId', 'logChannelId'];
 const numericOptions = ['requiredAccountAge', 'requiredTimeOnServer', 'smallAttachmentLimit', 'port'];
 
 const defaultConfig = {
-  "token": null,
+  "token": Process.env.token,
   "mailGuildId": null,
   "mainGuildId": null,
   "logChannelId": null,
