@@ -68,7 +68,7 @@ async function shouldMigrate() {
 }
 
 async function migrateOpenThreads() {
-  const bot = new Eris.Client(Process.env.token);
+  const bot = new Eris.Client(config.token);
 
   const toReturn = new Promise(resolve => {
     bot.on('ready', async () => {
